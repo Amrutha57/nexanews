@@ -1,10 +1,12 @@
 import Navbar from "./components/navbar"
-const App= ()=>
-{
+import Newsboard from "./components/newsboard"
+import './App.css';
+function App() {
   return (
     <div>
-          <Navbar/>
+      <Navbar />
+      <Newsboard />
     </div>
-  )
+  );
 }
 export default App

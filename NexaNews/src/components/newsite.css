@@ -1,0 +1,11 @@
+.news-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next line */
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Centers items */
+  }
+  
+  .news-container .card {
+    width: 300px; /* Set a fixed width for each card */
+  }
+  
