@@ -1,0 +1,9 @@
+.home{
+    padding-top: 60px;
+
+        background-image: url("bgnexa.gif");
+        height: 700px;
+        background-size: cover; /* Ensures the image covers the entire element */
+  
+    
+}

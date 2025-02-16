@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import "./Newsboard.css";
 import Newsitem from "./newsitem";
+
 const Newsboard= ()=>
     {
       const [articles,setArticles]=useState([]);
