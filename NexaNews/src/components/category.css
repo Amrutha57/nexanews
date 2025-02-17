@@ -1,0 +1,38 @@
+
+.con{
+    padding-top: 140px; 
+   
+}
+.con1{
+    background: linear-gradient(to right, rgb(42, 1, 35), #090031); 
+    padding-bottom: 0%;
+    padding-top: 0%;
+    padding-left: 40px;
+}
+.rows{
+    height: auto;
+    width: auto;
+    padding-left: 100px;
+}
+.p-4 {
+    display: flex;
+    flex-direction: column;  /* Stack the content vertically */
+    align-items: center;     /* Center content horizontally */
+  }
+  
+  .news-img {
+    width: 120%;   /* Make sure the image is responsive */
+    height: auto;  /* Maintain aspect ratio */
+  }
+  
+  .news-text {
+    margin-top: 10px;  /* Add space between the image and the text */
+    font-size: 1.2rem; /* Adjust the font size if needed */
+    text-align: center; /* Center the text */
+  }
+  .ca{
+    height:50px
+  }
+  .news-text{
+    font-weight: bold;
+  }
