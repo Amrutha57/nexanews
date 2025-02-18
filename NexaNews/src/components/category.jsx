@@ -9,7 +9,7 @@ const Category = () => {
     <div className="row gx-5  gy-5 rows con1">
     <div className="col d-flex align-items-stretch">
     <div className="p-4 border bg-light">
-      <a  onClick={(e) => { e.preventDefault(); navigate("/"); }}> 
+      <a  onClick={(e) => { e.preventDefault(); navigate("/news"); }}> 
         <img src='./src/assets/news-breaking-news.gif' style={{ width: '320px', height: '250px' }}/>
         <div className="news-text">
     <p> The latest <br/>
@@ -20,11 +20,14 @@ const Category = () => {
   </div>
   <div className="col d-flex align-items-stretch">
     <div className="p-4 border bg-light">
-    <a > <img src='./src/assets/carer.gif' style={{ width: '320px', height: '250px' }} />
-    </a>
+    <a onClick={(e) => { e.preventDefault(); navigate("/carer"); }} >
+       <img src='./src/assets/carer.gif' style={{ width: '320px', height: '250px' }} />
+       
     <div className="news-text ca">
     Career Guidance
+    
   </div>
+  </a>
     </div>
   </div>
     </div>
