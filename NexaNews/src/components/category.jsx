@@ -6,6 +6,7 @@ const Category = () => {
 
   return (<div className='con1'>
     <div className="container px-4  con">
+    <h1 class="category-title">Choose Your Category</h1>
     <div className="row gx-5  gy-5 rows con1">
     <div className="col d-flex align-items-stretch">
     <div className="p-4 border bg-light">

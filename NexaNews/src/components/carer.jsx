@@ -7,10 +7,11 @@ const Carer = () => {
   return (
     <div className='con2'>
     <div className="container px-4  con">
+    <h1 class="category-title">Select Your Choice</h1>
     <div className="row gx-5  gy-5 rows con2">
     <div className="col d-flex align-items-stretch">
     <div className="p-4 border bg-light">
-      <a  onClick={(e) => { e.preventDefault(); navigate("/news"); }}> 
+      <a  onClick={(e) => { e.preventDefault(); navigate("/web"); }}> 
       <video src='./src/assets/web.mp4' style={{ width: '320px', height: '250px' }} autoPlay loop muted/>
         <div className="news-text">
     <p> Web Development</p>
