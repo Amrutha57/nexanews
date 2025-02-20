@@ -97,7 +97,7 @@ const Ds = () => {
     </div>
 
     <div className="video-block">
-        <video className="video" src="/Get_Hands-On.mp4" playsInline preload="auto" controls></video>
+        <video className="video" src="/ds3.mp4" playsInline preload="auto" controls></video>
         <p className="video-text">
             <a href="https://youtu.be/kku0fVfksrk?si=NBRmwN05g_SNWIPC">➡️Build 🔨</a> |
             <a href="https://github.com/"> Connect 🤝</a> |
