@@ -1,3 +1,207 @@
-.web{
-    padding-top: 100px;
+/* Ensure the video container allows absolute positioning */
+.video-container1 {
+    position: relative; /* This makes sure children can be positioned inside */
+    width: 100%;
+}
+
+/* Video styling */
+.vide {
+    width: 100%; /* Full width */
+    max-width: 1800px;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Text inside the video */
+.web {
+    position: absolute; /* Position inside the .video-container */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Perfect centering */
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%; /* Ensure text stays within bounds */
+}
+
+.page-container{
+    background:whitesmoke ;
+       
+        width: 100%;
+        min-height: 100vh; /* Ensures it covers the full viewport height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+.content {
+    position: relative; /* Ensures text stays on top */
+    z-index: 1;
+     /* Adjust text color for visibility */
+    padding: 50px; /* Adds spacing */
+    min-height: 200vh; /* Extends content height */
+  }
+.webh3 {
+    position: relative; 
+    top: 0px; /* Adjust the value as needed */
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: -69px;}
+    .video {
+        float: right;
+        margin-top: 130px;
+        width: 65%;
+        max-width: 480px;
+        height: auto;
+        border-radius: 10px;
+        position: relative; /* Ensures it's on top */
+  z-index: 10;  
+      }
+  .why{
+    text-align: left;
+    margin-top: 80px;
+    font-size: 35px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  .webul {
+    margin-left: 50px;
+    position: relative; /* Enables positioning */
+    top: 0px;        /* Moves it up */
+    font-size: 25px;
+    position: relative;
+    z-index: 5;
+}
+.why1{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.webul1{
+    margin-left: 50px;
+   
+    position: relative; /* Enables positioning */
+    top: 0px;        /* Moves it up */
+    font-size: 25px;}
+    .why2{
+        font-size: 35px;
+        margin-top: 25px;
+        margin-left: 20px;
+        font-weight: bold;
+    }
+.webul2{
+    padding-top: 0%;
+    font-size: 25px;
+    
+    margin-left: 20px;
+}
+.why3{
+    margin-top: 20px;
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 25px;
+}
+.c{
+    margin-top: 0px;
+}
+.why4{
+    margin-top: 25px;
+    font-size: 35px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.a{
+    font-size: 35px;
+    margin-left: 50px;
+}
+.why5{
+    padding-top: 0px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between videos */
+    padding: 20px;
+    flex-wrap: wrap; /* Wrap videos for smaller screens */
+}
+
+.video-block {
+   
+    flex: 1;
+    max-width: 30%;
+    min-width: 280px; /* Ensures videos don't get too small */
+}
+.vide {
+    width: 100%; /* Ensures it covers full width */
+    max-width: 1800px; /* Adjust max width for large screens */
+    height: 100px; /* Reduce height */
+    object-fit: cover; /* Ensures the video fills properly */
+    display: block;
+    position: relative;
+    top: -10px; /* Moves it up slightly */
+    margin: 0 auto; /* Centers it horizontally */
+}
+
+.video {
+    width: 65%;
+    border-radius: 20px;
+}
+
+.video-text a {
+    text-decoration: none;
+    /* Change link color */
+    font-size: 22px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+.video-text a:hover {
+    color: #ff5500; /* Change color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .video-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-block {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .webh3, .why, .why1, .why2, .why3, .why4, .why5 {
+        font-size: 1.5rem;
+    }
+    .webul, .webul1, .webul2 {
+        font-size: 0.9rem;
+    }
+    .video, .video1, .video2, .video3 {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .webh3, .why, .why1, .why2, .why3, .why4, .why5 {
+        font-size: 1.2rem;
+    }
+    .webul, .webul1, .webul2 {
+        font-size: 0.8rem;
+    }
+    .video, .video1, .video2, .video3 {
+        max-width: 100%;
+    }
+    .video-text, .video-text3, .video-text4 {
+        font-size: 1rem;
+    }
 }

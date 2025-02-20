@@ -1,0 +1,74 @@
+/* General Styles */
+.networking-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #121212;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+/* Title */
+.networking-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00d4ff;
+    margin-bottom: 20px;
+}
+
+/* List */
+.networking-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.networking-container li {
+    background: #1e1e1e;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.networking-container li:hover {
+    background: #00d4ff;
+    color: black;
+    transform: translateY(-3px);
+}
+
+/* Icons */
+.networking-container li i {
+    font-size: 1.5rem;
+    margin-right: 12px;
+    color: #00d4ff;
+}
+
+/* Text */
+.networking-container p {
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+/* Footer Text */
+.footer-text {
+    margin-top: 20px;
+    font-style: italic;
+    color: #aaa;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .networking-container {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .networking-container h2 {
+        font-size: 1.5rem;
+    }
+}

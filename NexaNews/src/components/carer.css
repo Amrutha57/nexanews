@@ -1,6 +1,22 @@
 .con2{
-    background: linear-gradient(to right, rgb(44, 4, 44), #050507);
+   
     padding-bottom: -20%;
     padding-top: 0%;
     padding-left: 40px;
 }
+.category-title1{
+    padding-top: 50px;
+    align-content: center;
+    color: rgb(255, 249, 249);
+    text-align: center;
+    padding-bottom: 10px;
+}
+.video-bg1 {
+    position: fixed; /* Keeps it in place even when scrolling */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* Ensures the video fills the screen */
+  z-index: -1;  /* Ensure video stays behind the content */
+  }
