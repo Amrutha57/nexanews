@@ -1,4 +1,5 @@
-{"homepage": "https://Amrutha57.github.io/nexanews",
+{
+  "homepage": "https://Amrutha57.github.io/nexanews",
   "name": "nexanews",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.23.0",
@@ -32,3 +33,4 @@
     "vite": "^6.1.0"
   }
 }
+

@@ -19,6 +19,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
+      <Route path="/" element={<Home />} />  {/* Default Home Page */}
         <Route path="/home" element={<Home />} />  {/* Default Home Page */}
         <Route path="/news" element={<Newsboard />} />  {/* News Page */}
         <Route path="/category" element={<Category />} /> {/* category  Page */}

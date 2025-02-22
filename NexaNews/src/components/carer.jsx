@@ -23,7 +23,7 @@ const Carer = () => {
   <div className="col d-flex align-items-stretch">
     <div className="p-4 border bg-light">
     <a onClick={(e) => { e.preventDefault(); navigate("/cyber"); }} >
-       <img src='./src/assets/cyber.webp' style={{ width: '320px', height: '250px' }} />
+       <img src='/cyber.webp' style={{ width: '320px', height: '250px' }} />
        
     <div className="news-text ca">
   Cyber Security
@@ -37,7 +37,7 @@ const Carer = () => {
     <div className="row gx-5 rows gy-5" >
     <div className="col d-flex align-items-stretch">
     <div className="p-4 border bg-light">
-    <a onClick={(e) => { e.preventDefault(); navigate("/ai"); }}>  <img src='./src/assets/A.I-2.gif' style={{ width: '320px', height: '250px' }}/>
+    <a onClick={(e) => { e.preventDefault(); navigate("/ai"); }}>  <img src='/A.I-2.gif' style={{ width: '320px', height: '250px' }}/>
     </a>
     <div className="news-text">
    AI And Machine Learning
@@ -45,7 +45,7 @@ const Carer = () => {
     </div>
   </div>
   <div className="col d-flex align-items-stretch">
-    <div className="p-4 border bg-light"><a onClick={(e) => { e.preventDefault(); navigate("/ds"); }}>  <img src='./src/assets/datascience.gif' style={{ width: '320px', height: '250px' }}/>
+    <div className="p-4 border bg-light"><a onClick={(e) => { e.preventDefault(); navigate("/ds"); }}>  <img src='/datascience.gif' style={{ width: '320px', height: '250px' }}/>
    
     <div className="news-text">
      Data Science
