@@ -21,27 +21,25 @@ const Newsboard = () => {
           {
             headers: {
               "Accept": "application/json",
-              "User-Agent": "Mozilla/5.0" // Fix for 426 error
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
             },
             mode: "cors"
           }
         );
 
-        console.log("API Response Status:", response.status);
-        
         if (!response.ok) {
           if (response.status === 401) {
             throw new Error("Unauthorized: Invalid API key or quota exceeded.");
           } else if (response.status === 403) {
             throw new Error("Forbidden: API key may be incorrect or not allowed.");
           } else if (response.status === 426) {
-            throw new Error("Upgrade Required: API may need a different request version or authentication.");
+            throw new Error("Upgrade Required: Check GNews API documentation.");
           }
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
 
         const data = await response.json();
-        console.log("API Response Data:", data);
+        console.log("API Response:", data);
 
         if (!data.articles || !Array.isArray(data.articles)) {
           throw new Error("Invalid API response: No articles found.");
