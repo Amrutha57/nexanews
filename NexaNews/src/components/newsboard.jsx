@@ -11,13 +11,7 @@ const Newsboard = () => {
     const fetchNews = async () => {
       try {
         const response = await fetch(
-          "https://newsapi.org/v2/top-headlines?category=technology&apiKey=da6d3a0a9cae4cf3b48ea62c36a32dc5",
-          {
-            headers: {
-              "User-Agent": "Mozilla/5.0",
-              "Accept": "application/json"
-            }
-          }
+          "https://gnews.io/api/v4/top-headlines?category=technology&apikey=97d09053fa86690605cbede7e12d902f"
         );
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
@@ -51,7 +45,7 @@ const Newsboard = () => {
             key={index}
             title={news.title}
             description={news.description}
-            src={news.urlToImage || "https://via.placeholder.com/150"}
+            src={news.image || "https://via.placeholder.com/150"}
             url={news.url}
           />
         ))
