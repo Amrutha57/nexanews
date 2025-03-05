@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const API_KEY = 'YOUR_NEWSAPI_KEY'; // Replace with your NewsAPI key
+const API_KEY = '97d09053fa86690605cbede7e12d902f'; // Replace with your NewsAPI key
 
 app.use(cors());
 
