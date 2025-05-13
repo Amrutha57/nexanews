@@ -14,6 +14,7 @@ import SignInPage from "./components/sign";
 import SignUpPage from "./components/signup";
 import Byn from "./components/byn";
 import SuccessStories from "./components/ss";
+import Newsboard1 from "./components/newsboard1";
 function App() {
   return (
     <Router>
@@ -21,7 +22,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Home />} />  {/* Default Home Page */}
         <Route path="/home" element={<Home />} />  {/* Default Home Page */}
-        <Route path="/news" element={<Newsboard />} />  {/* News Page */}
+        <Route path="/news" element={<Newsboard1 />} />  {/* News Page */}
         <Route path="/category" element={<Category />} /> {/* category  Page */}
         <Route path="/carer" element={<Carer />} /> {/* category  Page */}
         <Route path="/web" element={<Web />} />  {/* Default Home Page */}
