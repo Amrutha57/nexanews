@@ -12,7 +12,7 @@ const Category = () => {
     <div className="col d-flex align-items-stretch">
     <div className="p-4 border bg-light ">
       <a  onClick={(e) => { e.preventDefault(); navigate("/news"); }}> 
-        <img className='news-img'src='./src/assets/news-breaking-news.gif' style={{ width: '450px', height: '250px' }}/>
+        <img className='news-img'src='/news-breaking-news.gif' style={{ width: '450px', height: '250px' }}/>
         <div className="news-text">
     <h4 > The latest <br/>
     breaking Tech News</h4>
@@ -23,7 +23,7 @@ const Category = () => {
   <div className="col d-flex align-items-stretch">
     <div className="p-4 border bg-light ">
     <a onClick={(e) => { e.preventDefault(); navigate("/carer"); }} >
-       <img  className='news-img'src='./src/assets/carer.gif' style={{ width: '450px', height: '271px' }} />
+       <img  className='news-img'src='/carer.gif' style={{ width: '450px', height: '271px' }} />
        
     <div className="news-text ca">
     Career Guidance
@@ -37,7 +37,7 @@ const Category = () => {
     <div className="row gx-5 rows gy-5" >
     <div className="col d-flex align-items-stretch">
     <div className="p-4 border bg-light">
-    <a  onClick={(e) => { e.preventDefault(); navigate("/build"); }}>  <img  className='news-img'src='./src/assets/future.gif' style={{ width: '430px', height: '250px' }}/>
+    <a  onClick={(e) => { e.preventDefault(); navigate("/build"); }}>  <img  className='news-img'src='/future.gif' style={{ width: '430px', height: '250px' }}/>
     </a>
     <div className="news-text">
     Build Your Network
@@ -45,7 +45,7 @@ const Category = () => {
     </div>
   </div>
   <div className="col d-flex align-items-stretch">
-    <div className="p-4 border bg-light"><a onClick={(e) => { e.preventDefault(); navigate("/success"); }} >  <img className='news-img' src='./src/assets/success1.jpg' style={{ width: '430px', height: '250px' }}/>
+    <div className="p-4 border bg-light"><a onClick={(e) => { e.preventDefault(); navigate("/success"); }} >  <img className='news-img' src='/success1.jpg' style={{ width: '430px', height: '250px' }}/>
    
     <div className="news-text">
      Success Stories
