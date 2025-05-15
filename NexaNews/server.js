@@ -1,4 +1,4 @@
-const express = require('express');
+/*const express = require('express');
 const fetch = require('node-fetch');
 const cors = require('cors');
 
@@ -24,3 +24,4 @@ app.get('/api/news', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+*/

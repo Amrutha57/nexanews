@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+/*import { useState, useEffect } from "react";
 import "./Newsboard.css";
 import Newsitem from "./newsitem";
 
@@ -85,3 +85,4 @@ const Newsboard = () => {
 };
 
 export default Newsboard;
+8888*/
